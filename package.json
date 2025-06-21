@@ -1,0 +1,13 @@
+{
+  "name": "async-patterns-refactor",
+  "version": "1.0.0",
+  "description": "Demonstrate refactoring callbacks → promises → async-await in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node callback/httpCallback.js",
+    "promise":  "node promise/httpPromise.js",
+    "async":    "node async-await/httpAsyncAwait.js"
+  },
+  "author": "Harsh Singh",
+  "license": "MIT"
+}
